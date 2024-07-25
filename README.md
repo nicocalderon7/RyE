@@ -4,14 +4,14 @@ Consideraciones generales:
 - Esta comentada la linea de codigo donde van los logos en header y footer. Todos deberian reemplazarlo por el logo nuevo en la medida correspondiente.
 
 Feli y Luca: 
-- Agregar los logos, y revisar la maqueta. Solo del Index
+- Agregar los logos, y revisar la maqueta. Solo del "Index"
 
 Alejo: 
-- Agregar logos, cambiar colores y revisar la maqueta.
+- Agregar logos, cambiar colores y revisar la maqueta todo de "Servicios".
 
 Lio:
 - Fijate la logica del boton de upload para los documentos, lo ideal es que apunte a un mail. Pero manejalo a tu criterio. Si podes reparar la animacion del scroll
-vertical de la linea de tiempo joya.
+vertical de la linea de tiempo joya, seccion "Informacion".
 
 Octavio: 
 - Acomodar la altura del form de contacto para que este al nivel del embeded de google y cambiar los colores.
