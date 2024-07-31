@@ -35,6 +35,8 @@ justify-content: start;
   position: relative;
   color: #ffffff;
   text-decoration: none;
+ /* padding: 10px;
+  transition: color 0.3s ease-out; */
 }
 
 .navbar-nav a:hover {
@@ -51,9 +53,11 @@ justify-content: start;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transform-origin: left;
+  transition: transform 0.7s ease;
 }
 
 .navbar-nav a:hover::before {
@@ -95,6 +99,29 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 }
+/*declaro los colores*/
+.btn-warning,
+.btn-rem{
+  background-color: #843033 ;
+  border-color: #843033 !important;
+  cursor:pointer;
+  transition: background-color 0.7s ease;
+  
+}
+/*aplico esto para que cuando el cursor este encima de los botones siga el color*/
+.btn-warning:hover,
+.btn-rem:hover{
+  background-color: #a54740 ;
+ 
+}
+/*declaro que sigan teniendo el mismo color cuando y durante la interaccion del boton*/
+.btn-warning:active,
+.btn-rem:active,
+.btn-warning:focus,
+.btn-rem:focus{
+  background-color: #843033 !important;
+  border-color: #843033 !important;
+}
 
 .titulo{
 font-size: 5rem;
@@ -133,7 +160,7 @@ margin: 0 auto;
 }
 
 .card:hover{
-background-color: rgb(248, 199, 0);
+background-color: #843033;
 }
 
 .card:hover .btn.info {
@@ -153,7 +180,7 @@ margin-top: 55px;
 }
 
 .subrayado{
-border-bottom: 4px solid #ffc107; /* Tambien tenia color verde */ 
+border-bottom: 4px solid #843033; /* Tambien tenia color verde */ 
 padding-bottom: 10px;
 }
 
@@ -178,7 +205,7 @@ padding-left: 0;
 /* Linea separadora */ 
 .linea{
 margin: 0 auto;
-border-bottom: 4px solid #ffc107; /*rgb(179, 232, 3) Color verde */
+border-bottom: 4px solid #843033; /*rgb(179, 232, 3) Color verde */
 padding-bottom: 10px;
 margin-top: 3rem;
 margin-bottom: 3rem;
@@ -220,8 +247,8 @@ height: 30px;
 position: absolute;
 top: -4px;
 left: -5px;
-border-top: 5px solid #ffc107;
-border-left: 5px solid #ffc107;
+border-top: 5px solid #843033;
+border-left: 5px solid #843033;
 transition: width 0.5s ease, height 0.5s ease;
 }
 .borde:after {
@@ -232,8 +259,8 @@ height: 30px;
 position: absolute;
 bottom: 5px;
 right: -5px;
-border-bottom: 5px solid #ffc107;
-border-right: 5px solid #ffc107;
+border-bottom: 5px solid #843033;
+border-right: 5px solid #843033;
 transition: width 0.5s ease, height 0.5s ease;
 }
 
@@ -280,7 +307,7 @@ color: white;
 }
 
 .accordion-button:hover {
-color: #f8c700;
+color: #843033;
 }
 
 .accordion-item .show .accordion-button.bg-black {
@@ -340,7 +367,7 @@ margin-bottom: 10px; /* Espacio entre cada ícono */
 width: 3.5rem; /* Ancho fijo */
 height: 3.5rem;
 border-radius: 50%; /* Hace el contenedor circular */
-background-color: #ffc107; /* Color de fondo */
+background-color: #843033; /* Color de fondo */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -654,7 +681,7 @@ h1{
   left: 25px;
   height: 100%;
   width: 4px;
-  background: #ffc107;
+  background: #843033;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -701,7 +728,7 @@ h1{
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #ffc107, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #843033, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img {
   background: #020202;
@@ -886,7 +913,7 @@ h1{
   width: 2.5rem; /* Ancho fijo */
   height: 2.5rem;
   border-radius: 50%; /* Hace el contenedor circular */
-  background-color: #ffc107; /* Color de fondo */
+  background-color: #843033; /* Color de fondo */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -915,7 +942,7 @@ h1{
   width: 2.5rem; /* Ancho fijo */
   height: 2.5rem;
   border-radius: 50%; /* Hace el contenedor circular */
-  background-color: #ffc107; /* Color de fondo */
+  background-color: #843033; /* Color de fondo */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -944,7 +971,7 @@ h1{
   width: 2.5rem; /* Ancho fijo */
   height: 2.5rem;
   border-radius: 50%; /* Hace el contenedor circular */
-  background-color: #ffc107; /* Color de fondo */
+  background-color: #843033; /* Color de fondo */
   display: flex;
   justify-content: center;
   align-items: center;
